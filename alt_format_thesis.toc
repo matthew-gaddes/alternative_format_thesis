@@ -1,0 +1,35 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{xi}{chapter*.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1.1}A section}{1}{section.1.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1.2}Aims and Objectives}{1}{section.1.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1.3}Thesis outline}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Publication 1 title}{5}{chapter.2}
+\defcounter {refsection}{2}\relax 
+\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Publication 2 title}{9}{chapter.3}
+\defcounter {refsection}{3}\relax 
+\contentsline {section}{\numberline {3.1}Introduction}{10}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Publication 3 title}{13}{chapter.4}
+\defcounter {refsection}{4}\relax 
+\contentsline {section}{\numberline {4.1}Introduction}{14}{section.4.1}
+\defcounter {refsection}{5}\relax 
+\contentsline {chapter}{\numberline {5}Discussion and Conclusions}{17}{chapter.5}
+\defcounter {refsection}{5}\relax 
+\contentsline {section}{\numberline {5.1}Project aims and key findings}{17}{section.5.1}
+\defcounter {refsection}{5}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Further Remarks}{17}{subsection.5.1.1}
+\defcounter {refsection}{5}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Key Findings}{17}{subsection.5.1.2}
+\defcounter {refsection}{5}\relax 
+\contentsline {section}{\numberline {5.2}Future work}{18}{section.5.2}
+\defcounter {refsection}{5}\relax 
+\contentsline {section}{\numberline {5.3}Concluding remarks}{18}{section.5.3}

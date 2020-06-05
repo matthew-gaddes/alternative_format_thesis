@@ -1,0 +1,352 @@
+
+%-----------------------------  README  ------------------------------------------
+% THESIS TEMPLATE FILE - compatible with University of Leeds guidelines, and designed
+% for use when submitting an alternative format thesis / thesis by publication.
+% Key point is that by using biber instead of bibtex, bibliographies for each publication
+% can be created from a single .bib file.
+%
+% Instructions:
+%   - To compile:
+%     pdflatex alt_format_thesis.tex
+%     biber alt_format_thesis                   % NOTE NO EXTENSION FOR BIBER!
+%     pdflatex alt_format_thesis.tex
+%
+% Installing / getting it to compile:
+%    When used with TexLive on Ubuntu 18.04, some other packages and biber are needed:
+%    e.g. in a terminal:
+%     sudo apt install texlive-bibtex-extra                                            % Usually missing if breakcites.sty can't be found
+%     sudo apt install biber                                                           % used instead of biblatex as it supports refsections (which allows a bibliography in each chapter from a single .bib file)
+
+%    Others that may be needed:
+%      sudo apt-get install texlive-fonts-extra
+%
+%     Errors from missing .sty files are usually to do with missing packages.
+%
+% Latexdiff:
+%    Great for tracking changes.  A nice guide to what can be a tricky install is here:
+%    http://www.deanbodenham.com/learn/troubleshooting-latexdiff.html
+
+
+% History
+%     M.C.   Garthwaite 30/09/2011
+%     D.P.S. Bekaert 	23/02/2016  Adapt for thesis by publication
+%     M.E. 	 Gaddes		13/03/2019	Adapt to handle references from a single .bib file
+%     M.E.   Gaddes   05/06/2020  Create minimum working template
+
+%-----------------------------------------------------------------------
+
+
+
+
+\documentclass[titlepage,twoside,onecolumn,a4paper,11pt]{report}
+
+\edef\restoreparindent{\parindent=\the\parindent\relax}
+\usepackage{parskip}
+\restoreparindent
+
+\usepackage{float}
+\usepackage{fancyhdr} 												% for making headers and footers
+\usepackage{appendix} 												% sets up the appendix environment
+\usepackage{graphicx} 												% Needed to display graphics
+\usepackage{geometry}                   % Allows definition of text/page measurements
+\usepackage{setspace} 												% \singlespacing , \onehalfspacing , and  \doublespacing
+\usepackage{url} 													% line-breaks for long URLs, DOIs, etc
+\usepackage{amsmath} % AMS mathematics
+\usepackage{amssymb} % Defines names of maths symbols in amsfonts
+\usepackage{a4} % for A4 paper size. Not needed if defined in \documentclass ?
+\usepackage{enumitem} % useful for customising lists
+\usepackage[small,bf]{caption} % Sets the style of the captions for figure/table. here the text
+\usepackage[left,mathlines]{lineno}  % Places line numebrs in margin
+\usepackage[nottoc,notbib]{tocbibind}
+\usepackage[pdftex,pdfpagelabels,breaklinks=true]{hyperref}  % Creates hyper links N.B. pdf option and index option [pdftex,hyperindex,backref,pdfpagelabels]
+\usepackage[all]{hypcap} % Hyperlinks go to all of figure rather than just caption. Problem if figure does not have a caption - Conflicts with {fltpage}
+%\usepackage{doi}  % Need to download sty file. Add doi links N.B. must go after hyperref. Also it won't work with doi's with < >. For % put \%. doi links are only compatible with certain bib style files
+\usepackage[normal]{subfigure} % allows multiple floats within one figure environment with a caption for each in addition to main caption
+\usepackage{breakcites}
+%\usepackage{breakurl}
+\usepackage{makeidx} % Make Index
+\makeindex
+
+\usepackage{multirow}
+
+
+%%%%%%%%%%%%%%%%%%%% Bibliography stuff. Argh!!!!
+%\usepackage[backend=biber, style=apa, natbib=true, citestyle=authoryear, uniquename=false, maxcitenames=1]{biblatex}		          %
+\usepackage[backend=biber,
+            natbib=true,                                % using natbib allows the use of citet and citep, so you can copy from JGR file
+            citestyle=authoryear,                       %
+            bibstyle=authoryear,                        % no number of bibliography
+            maxcitenames=2,                             % switch to firsname + et al if more than 2
+            maxbibnames=99,                             % don't truncate authors to et al in bibliography
+            uniquename=false,                           % control inititals and get correct number of authors (no name1, name2, et al)
+            uniquelist=false,                            % ditto
+            ]{biblatex}
+%\addbibresource{library_2019_05_01.bib}                     % include extension for biber
+%\addbibresource{library_2019_05_13.bib}                     % include extension for biber
+%\addbibresource{library_2019_06_16.bib}                     % include extension for biber
+\addbibresource{library.bib}                     % include extension for biber
+%%%%%%%%%%%%%%%%%%%% End Bibliography stuff.
+
+
+
+%%%% Pdf name etc setup
+\hypersetup{
+    plainpages=false,                   % Resets counter in main matter (Problems of links to early pages)
+    bookmarks=true,                     % show bookmarks bar?
+    unicode=false,                      % non-Latin characters in Acrobat\u2019s bookmarks
+    pdftoolbar=true,                    % show Acrobat\u2019s toolbar?
+    pdfmenubar=true,                    % show Acrobat\u2019s menu?
+    pdffitwindow=true,                  % page fit to window when opened
+    pdfstartview={FitV},
+    pdftitle={Automatic Detection of Volcanic Unrest Using Synthetic Aperture Radar},    % title
+    pdfauthor={Matthew Edward Gaddes},     % author
+    pdfcreator={School of Earth and Environment, University of Leeds},
+    pdfsubject={PhD Thesis, School of Earth and Environment, University of Leeds},   % subject of the document
+    pdfkeywords={},
+    pdfdisplaydoctitle=true,
+    % SET up LINKS
+    colorlinks=true,% false: boxed links; true: colored links
+    citecolor=black,% color of links to bibliography
+    filecolor=black,% color of file links
+    linkcolor=black,% color of internal links
+    urlcolor=black% color of external links
+}
+
+
+%\DeclareUnicodeCharacter{0301}{*************************************}          # good for hunting for unicode errors.
+
+
+%%%% Page setup
+\pagestyle{fancy} % 'fancy' will place header and footers. 'plain' will not
+\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter:\ #1}{}} %% sets format of Chapter mark (left pages)
+\renewcommand{\sectionmark}[1]{\markright{\S\thesection\ #1}} %% sets format of section mark (right pages)
+\renewcommand{\headrulewidth}{0.5pt} %%sets thickness of header rule
+\renewcommand{\footrulewidth}{0pt}  %%sets thickness of footer rule
+\fancyhead[RO,LE]{\thepage} 							% options R - Right-hand side L - Left-hand side O - odd page E - even page
+% \fancyhead[RE]{\nouppercase\leftmark}
+% \fancyhead[LO]{\nouppercase\rightmark}
+\fancyfoot{}
+%\setlength\headheight{13.6pt}					% if paper titles stay on one page in the headers
+\setlength\headheight{26.0pt}					% if paper titles go onto two pages in the headers
+\fancyhfoffset[EL,OR]{0mm}
+\onehalfspacing							 % alternative \doublespacing. both acceptable for Leeds submissions
+%\geometry{a4paper,twoside,inner=40mm,outer=25mm,top=30mm,bottom=35mm}		% Definition of page measurements compatible with University of Leeds margin requirements (40mm x 20mm x 20mm x 20mm).
+\geometry{a4paper,inner=40mm,outer=25mm,top=30mm,bottom=35mm}				% Larger margin for binding side
+%%%% End page setup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagenumbering{roman} % Start roman numbering, to be used up until introduction.
+
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+\hbox{}%
+\thispagestyle{empty}
+\newpage%
+\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{
+\Huge{\textbf{My First Thesis}}\\[2cm]
+\Large{{\bf First Second Surname}} \\[4cm]
+\large{Submitted in accordance with the requirements for the degree of\\
+Doctor of Philosophy} \\[2cm]
+\large{The University of Leeds}\\
+\large{School of Earth and Environment}\\ [2cm]
+\large{May 2019} }
+\author{} \date{}
+\pdfbookmark[0]{Title page}{Title page} % Sets a PDF bookmark for the title page
+\maketitle
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Declaration %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \fancyhead[RE,LO]{Declaration}						% text, right edge of even pages, left edge of odd
+% \fancyhead[RO,LE]{\thepage}							% page number, right edge of odd pages, left of even
+The candidate confirms that the work submitted is their own, except where work which has formed part of jointly authored publications has been included. The contribution of the candidate and the other authors to this work has been explicitly indicated below. The candidate confirms that appropriate credit has been given within the thesis where reference has been made to the work of others.\\
+
+The work in Chapter \ref{ch:publication1} of the thesis has appeared in publication as follows:\\
+Publication 1 citation.
+
+Author 1 did...., Author 2 did...., author 3 did.... .
+\vspace{5mm}
+
+The work in Chapter \ref{ch:publication2} of the thesis has been accepted for publication pending minor revisions under the following title:\\
+Paper 2 citation.
+
+Author 1 did...., Author 2 did...., author 3 did.... .
+\vspace{5mm}
+
+The work in Chapter \ref{ch:publication3} of the thesis is a manuscript about to be submitted under the following title:\\
+Publication 3 title.
+
+Author 1 did...., Author 2 did...., author 3 did.... .
+\vspace{5mm}
+
+This copy has been supplied on the understanding that it is copyright material and that no quotation from the thesis may be published without proper acknowledgement\\
+
+Copyright \copyright\; 2019 The University of Leeds and First Second Surname\\
+The right of First Second Surname to be identified as Author of this work has been asserted by him in accordance with the Copyright, Designs and Patents Act 1988.
+\cleardoublepage
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Acknowledgments %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Acknowledgements}
+\fancyhead[RE,LO]{Acknowledgements}
+\fancyhead[RO,LE]{\thepage}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis nibh et mi fermentum luctus. Suspendisse semper urna commodo, ultrices ligula a, mattis orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pellentesque mauris sed blandit pulvinar. Cras magna tellus, finibus eget pretium at, ultricies at nulla. Phasellus eleifend vehicula odio eget porta. Nam venenatis aliquam gravida. Nam pretium dapibus est nec gravida.
+
+Suspendisse lectus lectus, molestie nec velit vitae, pharetra venenatis metus. Mauris pellentesque consectetur euismod. Pellentesque congue aliquam eleifend. In hac habitasse platea dictumst. Donec eu leo vulputate, consequat lectus hendrerit, tempor diam. Donec consequat est augue, a convallis tortor mattis et. Ut in fermentum ipsum. Nulla orci lacus, egestas a accumsan vel, vehicula sit amet enim. Quisque eget ipsum nec felis euismod pretium id vitae orci. Donec non nulla odio. Nullam vel lacinia tortor, ac imperdiet quam.
+
+Praesent quis purus leo. Phasellus non neque fringilla, accumsan odio in, faucibus massa. Curabitur vel dignissim turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam eleifend fermentum dolor sit amet efficitur. Cras semper quam eget nisl accumsan pulvinar. Duis quis velit neque.
+
+
+
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Abstract %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Abstract}
+\fancyhead[RE,LO]{Abstract}
+\fancyhead[RO,LE]{\thepage}
+
+Integer feugiat sapien nisl, in pellentesque quam porttitor in. Suspendisse tincidunt, nisi ut elementum eleifend, ex nibh tempus nisl, vel sagittis ligula urna sed diam. Quisque ac ipsum est. Proin quis ultricies nisi. Praesent pretium placerat neque vitae rhoncus. In hac habitasse platea dictumst. Sed consequat sed orci eget vehicula. Nam cursus molestie magna, vitae semper est rhoncus sed.
+
+Integer finibus vel nisi a dictum. Aenean arcu nisl, vulputate a metus nec, volutpat convallis eros. Donec suscipit vel diam at tincidunt. Sed viverra risus non tincidunt pharetra. Pellentesque rhoncus placerat aliquam. Cras aliquet at nibh in ultrices. Nulla placerat lorem vitae dapibus convallis. Aliquam erat volutpat.
+
+Etiam vestibulum metus turpis, eget accumsan lacus luctus sed. Sed pellentesque tempor nisi sit amet vestibulum. Pellentesque et massa turpis. Nulla consequat in est vel venenatis. Nullam commodo dolor vel elit pellentesque gravida. Integer commodo sagittis sapien, cursus ornare augue. Nunc interdum metus eu accumsan rhoncus. Donec vitae feugiat turpis. In nec iaculis diam.
+
+Vestibulum vulputate magna in nibh volutpat suscipit. Phasellus venenatis magna metus, eu tristique eros rhoncus in. Nulla suscipit nisl justo, eu vulputate velit euismod ut. Donec vitae ipsum a ex dictum suscipit at et neque. Sed ut varius odio. Fusce non mauris dignissim, tincidunt metus finibus, commodo lacus. Maecenas id iaculis neque, eu elementum neque. Nulla nec lectus in augue molestie fringilla. Integer a odio sed urna dapibus consectetur.
+
+Pellentesque in orci consequat leo suscipit tristique vel ut mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sit amet gravida purus. Aliquam dapibus vulputate sollicitudin. Vivamus cursus leo ac dolor vestibulum pulvinar quis sit amet lorem. Phasellus egestas lacus eu condimentum vulputate. Nam sed mi at ante blandit tincidunt. Maecenas id semper orci. Phasellus eget sem aliquet erat auctor convallis. Curabitur nec augue eu tellus pulvinar pulvinar. Curabitur non erat vitae lorem lobortis scelerisque. Nam ultricies nulla vitae ex commodo elementum at id metus. Integer non sem sodales, congue neque id, dictum orci. In efficitur eros in dui suscipit ullamcorper. Vivamus suscipit eleifend elit ac bibendum. In sit amet sodales massa, id consequat magna.
+
+
+\cleardoublepage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Contents page %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pdfbookmark[0]{Contents}{Contents}
+\fancyhead[RE,LO]{Contents}
+\fancyhead[RO,LE]{\thepage}
+\tableofcontents
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Lis of figures %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead[RE,LO]{List of Figures}
+\fancyhead[RO,LE]{\thepage}
+\listoffigures
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Manual Nomenclature %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% this is a fudge that doesn't use the nomencl package, but it's simple and easy to use
+\chapter*{Nomenclature}
+\fancyhead[RE,LO]{Nomenclature}
+\fancyhead[RO,LE]{\thepage}
+
+\textbf{List of acronyms}\\ \\
+\begin{minipage}{0.2\linewidth}
+	BSS\\
+    CNN\\
+    DEM\\
+    ESA\\
+    GNSS\\
+    GPS\\
+    ICA\\
+    InSAR\\
+    NN\\
+    NMF\\
+    PCA\\
+    PDF\\
+    SAR\\
+    SRTM\\
+    SVM\\
+
+
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+    Blind Signal Separation\\
+    Convolutional Neural Network\\
+    Digital Elevation Model\\
+    European Space Agency\\
+    Global Navigation Satellite System\\
+    Global Positioning System\\
+    Independent component analysis\\
+    Interferometric synthetic aperture RaDAR\\
+    Neural Network\\
+    Non-negative matrix factorisation\\
+    Principal component analysis\\
+    Probability density function\\
+    Synthetic aperture RaDAR\\
+    Shuttle RaDAR Topography Mission\\
+    Support vector machines\\
+
+
+\end{minipage}
+
+\noindent
+\textbf{List of symbols}\\ \\
+\begin{minipage}{0.2\linewidth}
+	$\textbf{W}$\\
+	$\textbf{A}$\\
+	$\textbf{S}$\\
+	$\textbf{X}$\\
+
+
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+    Unmixing matrix\\
+    Mixing matrix\\
+    Sources (as row vectors)\\
+    Mixtures (as row vectors)\\
+
+\end{minipage}
+\cleardoublepage
+\fancyhead[RE]{\leftmark}		% Return Headers to Normal
+\fancyhead[LO]{\rightmark}
+
+
+
+
+\pagenumbering{arabic}           % Switch to normal numbers, also resets counter
+\include{front_material}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+
+\include{publication1}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+
+\include{publication2}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+
+\include{publication3}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+
+\include{back_material}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+
+\include{appendix_publication1}
+\cleardoublepage % dump remaining floats before end of chapter and ensure the next chapter starts on odd (right-hand) side
+\fancyhead[RE,LO]{Appendix A}
+\fancyhead[RO,LE]{\thepage}
+
+
+
+\end{document}

@@ -1,0 +1,53 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[1] Config.pm:305> INFO - Logfile is 'alt_format_thesis.blg'
+[44] biber:313> INFO - === Fri Jun  5, 2020, 12:28:27
+[71] Biber.pm:371> INFO - Reading 'alt_format_thesis.bcf'
+[157] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[158] Biber.pm:857> INFO - Found 1 citekeys in bib section 1
+[158] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[158] Biber.pm:857> INFO - Found 1 citekeys in bib section 2
+[158] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[158] Biber.pm:857> INFO - Found 2 citekeys in bib section 3
+[159] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[159] Biber.pm:857> INFO - Found 3 citekeys in bib section 4
+[159] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[159] Biber.pm:857> INFO - Found 4 citekeys in bib section 5
+[159] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[231] Biber.pm:3981> INFO - Processing section 1
+[246] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 1
+[248] bibtex.pm:1468> INFO - LaTeX decoding ...
+[261] bibtex.pm:1294> INFO - Found BibTeX data source 'library.bib'
+[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[284] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[284] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[284] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[287] Biber.pm:3981> INFO - Processing section 2
+[288] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 2
+[358] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[359] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[359] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[359] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[369] Biber.pm:3981> INFO - Processing section 3
+[369] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 3
+[479] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[479] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[480] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[480] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[489] Biber.pm:3981> INFO - Processing section 4
+[489] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 4
+[576] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[576] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[576] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[576] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[584] Biber.pm:3981> INFO - Processing section 5
+[585] Biber.pm:4154> INFO - Looking for bibtex format file 'library.bib' for section 5
+[683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[683] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[683] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[683] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[693] bbl.pm:617> INFO - Writing 'alt_format_thesis.bbl' with encoding 'ascii'
+[702] Utils.pm:169> WARN - The entry 'Hyvarinen1997' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[707] Utils.pm:169> WARN - The entry 'Hyvarinen1997' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[711] Utils.pm:169> WARN - The entry 'Hyvarinen1997' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[713] bbl.pm:720> INFO - Output to alt_format_thesis.bbl
+[714] Biber.pm:110> INFO - WARNINGS: 3

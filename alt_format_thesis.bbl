@@ -1,0 +1,917 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Massonet1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=00006e4570ef1176530d9da24bfc3fd2}{%
+           family={Massonet},
+           familyi={M\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod}}}%
+        {{hash=31ba8845312010c16527fbfa2f224187}{%
+           family={Feigl},
+           familyi={F\bibinitperiod},
+           given={Kurt\bibnamedelima L},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ff884af42fde45c980b1dd8da90fe07}
+      \strng{fullhash}{8ff884af42fde45c980b1dd8da90fe07}
+      \strng{bibnamehash}{8ff884af42fde45c980b1dd8da90fe07}
+      \strng{authorbibnamehash}{8ff884af42fde45c980b1dd8da90fe07}
+      \strng{authornamehash}{8ff884af42fde45c980b1dd8da90fe07}
+      \strng{authorfullhash}{8ff884af42fde45c980b1dd8da90fe07}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{-massive SAR review paper}
+      \field{number}{97}
+      \field{title}{{Radar interferometry and its application to changes in the Earth's surface}}
+      \field{year}{1998}
+      \field{pages}{441\bibrangedash 500}
+      \range{pages}{60}
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/massonet{\_}fiegl{\_}1997.pdf:pdf
+      \endverb
+      \keyw{doi:10.1029/97RG03139,http://dx.doi.org/10.1029/97RG03139}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Bernard1997}{article}{}
+      \name{author}{24}{}{%
+        {{hash=d893efcbb3a571c92e9ccfe1295657c5}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4e868267e3e036a39a3d82d9d331943a}{%
+           family={Briole},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1bc34a5502440d38ef380dadb76d3a5f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0983714877cadd5c67401c54a3e5a415}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2a6529c52130e7ba190a905c1aff9e4}{%
+           family={Tiberi},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2cdd7b6edd503d76abb40db1af7627ba}{%
+           family={Berge},
+           familyi={B\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=400020d313e0b9b67c1cec237266f3c9}{%
+           family={Cattin},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=76982a0208eb7b98863e04ce3388368a}{%
+           family={Hatzfeld},
+           familyi={H\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f86187e5d3140483603a33b51f64db18}{%
+           family={Lachet},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56f9643d42c16526544ab7c11e5edaa2}{%
+           family={Lebrun},
+           familyi={L\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88bd5c9e77228dac450f154e98e771bd}{%
+           family={Deschamps},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d667e845faab98689f528a86ea24d2e}{%
+           family={Courboulex},
+           familyi={C\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d62c6318d8a9b77436ae80754d6bcd8}{%
+           family={Larroque},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7098582150ec5e21d9b5c59958a58258}{%
+           family={Rigo},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dceaecff1ea2f5b3c7b5b818dbcf1581}{%
+           family={Massonnet},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2b47948fd8d179281ef1907080a52ee}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cff55003fae0b74d7ca778f11a1800a3}{%
+           family={Kassaras},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=801161658f8990a83621e0ea95eea247}{%
+           family={Diagourtas},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0dc4ad520b6c50b7ced6758568da3a16}{%
+           family={Makropoulos},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4672fc3d428cd17913ac84eee7a00f87}{%
+           family={Veis},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f62f42854677bd6b2c366a6ee7680ef}{%
+           family={Papazisi},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bfb4cbb8eaf826b611522be776e5f709}{%
+           family={Mitsakaki},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0802080dcac20af8244fd1f327bc03d1}{%
+           family={Karakostas},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7b945402b5c214cd6b71d3ba28f07d36}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{fullhash}{8cfefcff23c806474b094105901edcfb}
+      \strng{bibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authorbibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authornamehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{authorfullhash}{8cfefcff23c806474b094105901edcfb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Seismology}
+      \field{title}{{TheMs=6.2, June 15, 1995 Aigion earthquake (Greece): evidence for low angle normal faulting in the Corinth rift}}
+      \field{volume}{1}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 150}
+      \range{pages}{20}
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/bernard{\_}ea{\_}1997.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \keyw{gulf corinth,normal faulting}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Bernard1997}{article}{}
+      \name{author}{24}{}{%
+        {{hash=d893efcbb3a571c92e9ccfe1295657c5}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4e868267e3e036a39a3d82d9d331943a}{%
+           family={Briole},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1bc34a5502440d38ef380dadb76d3a5f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0983714877cadd5c67401c54a3e5a415}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2a6529c52130e7ba190a905c1aff9e4}{%
+           family={Tiberi},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2cdd7b6edd503d76abb40db1af7627ba}{%
+           family={Berge},
+           familyi={B\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=400020d313e0b9b67c1cec237266f3c9}{%
+           family={Cattin},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=76982a0208eb7b98863e04ce3388368a}{%
+           family={Hatzfeld},
+           familyi={H\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f86187e5d3140483603a33b51f64db18}{%
+           family={Lachet},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56f9643d42c16526544ab7c11e5edaa2}{%
+           family={Lebrun},
+           familyi={L\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88bd5c9e77228dac450f154e98e771bd}{%
+           family={Deschamps},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d667e845faab98689f528a86ea24d2e}{%
+           family={Courboulex},
+           familyi={C\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d62c6318d8a9b77436ae80754d6bcd8}{%
+           family={Larroque},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7098582150ec5e21d9b5c59958a58258}{%
+           family={Rigo},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dceaecff1ea2f5b3c7b5b818dbcf1581}{%
+           family={Massonnet},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2b47948fd8d179281ef1907080a52ee}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cff55003fae0b74d7ca778f11a1800a3}{%
+           family={Kassaras},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=801161658f8990a83621e0ea95eea247}{%
+           family={Diagourtas},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0dc4ad520b6c50b7ced6758568da3a16}{%
+           family={Makropoulos},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4672fc3d428cd17913ac84eee7a00f87}{%
+           family={Veis},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f62f42854677bd6b2c366a6ee7680ef}{%
+           family={Papazisi},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bfb4cbb8eaf826b611522be776e5f709}{%
+           family={Mitsakaki},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0802080dcac20af8244fd1f327bc03d1}{%
+           family={Karakostas},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7b945402b5c214cd6b71d3ba28f07d36}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{fullhash}{8cfefcff23c806474b094105901edcfb}
+      \strng{bibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authorbibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authornamehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{authorfullhash}{8cfefcff23c806474b094105901edcfb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Seismology}
+      \field{title}{{TheMs=6.2, June 15, 1995 Aigion earthquake (Greece): evidence for low angle normal faulting in the Corinth rift}}
+      \field{volume}{1}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 150}
+      \range{pages}{20}
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/bernard{\_}ea{\_}1997.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \keyw{gulf corinth,normal faulting}
+    \endentry
+    \entry{Hyvarinen1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=36ee8c7a6237ee52eabc0039397ca89b}{%
+           family={Hyv{\"{a}}rinen},
+           familyi={H\bibinitperiod},
+           given={Aapo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{fullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{bibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorbibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authornamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorfullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{applicability for this approach.}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9788578110796}
+      \field{issn}{1098-6596}
+      \field{journaltitle}{Journal of Chemical Information and Modeling}
+      \field{number}{9}
+      \field{title}{{Independent Component Analysis by Minimization of Mutual Information}}
+      \field{volume}{53}
+      \field{year}{1997}
+      \field{pages}{1689\bibrangedash 1699}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/Hyvarinen{\_}1997.pdf:pdf
+      \endverb
+      \keyw{icle}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Bernard1997}{article}{}
+      \name{author}{24}{}{%
+        {{hash=d893efcbb3a571c92e9ccfe1295657c5}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4e868267e3e036a39a3d82d9d331943a}{%
+           family={Briole},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1bc34a5502440d38ef380dadb76d3a5f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0983714877cadd5c67401c54a3e5a415}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2a6529c52130e7ba190a905c1aff9e4}{%
+           family={Tiberi},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2cdd7b6edd503d76abb40db1af7627ba}{%
+           family={Berge},
+           familyi={B\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=400020d313e0b9b67c1cec237266f3c9}{%
+           family={Cattin},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=76982a0208eb7b98863e04ce3388368a}{%
+           family={Hatzfeld},
+           familyi={H\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f86187e5d3140483603a33b51f64db18}{%
+           family={Lachet},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56f9643d42c16526544ab7c11e5edaa2}{%
+           family={Lebrun},
+           familyi={L\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88bd5c9e77228dac450f154e98e771bd}{%
+           family={Deschamps},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d667e845faab98689f528a86ea24d2e}{%
+           family={Courboulex},
+           familyi={C\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d62c6318d8a9b77436ae80754d6bcd8}{%
+           family={Larroque},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7098582150ec5e21d9b5c59958a58258}{%
+           family={Rigo},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dceaecff1ea2f5b3c7b5b818dbcf1581}{%
+           family={Massonnet},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2b47948fd8d179281ef1907080a52ee}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cff55003fae0b74d7ca778f11a1800a3}{%
+           family={Kassaras},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=801161658f8990a83621e0ea95eea247}{%
+           family={Diagourtas},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0dc4ad520b6c50b7ced6758568da3a16}{%
+           family={Makropoulos},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4672fc3d428cd17913ac84eee7a00f87}{%
+           family={Veis},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f62f42854677bd6b2c366a6ee7680ef}{%
+           family={Papazisi},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bfb4cbb8eaf826b611522be776e5f709}{%
+           family={Mitsakaki},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0802080dcac20af8244fd1f327bc03d1}{%
+           family={Karakostas},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7b945402b5c214cd6b71d3ba28f07d36}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{fullhash}{8cfefcff23c806474b094105901edcfb}
+      \strng{bibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authorbibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authornamehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{authorfullhash}{8cfefcff23c806474b094105901edcfb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Seismology}
+      \field{title}{{TheMs=6.2, June 15, 1995 Aigion earthquake (Greece): evidence for low angle normal faulting in the Corinth rift}}
+      \field{volume}{1}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 150}
+      \range{pages}{20}
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/bernard{\_}ea{\_}1997.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \keyw{gulf corinth,normal faulting}
+    \endentry
+    \entry{Hyvarinen1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=36ee8c7a6237ee52eabc0039397ca89b}{%
+           family={Hyv{\"{a}}rinen},
+           familyi={H\bibinitperiod},
+           given={Aapo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{fullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{bibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorbibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authornamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorfullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{applicability for this approach.}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9788578110796}
+      \field{issn}{1098-6596}
+      \field{journaltitle}{Journal of Chemical Information and Modeling}
+      \field{number}{9}
+      \field{title}{{Independent Component Analysis by Minimization of Mutual Information}}
+      \field{volume}{53}
+      \field{year}{1997}
+      \field{pages}{1689\bibrangedash 1699}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/Hyvarinen{\_}1997.pdf:pdf
+      \endverb
+      \keyw{icle}
+    \endentry
+    \entry{Mogi1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e9a5a251a5039e11989759c77688655}{%
+           family={Mogi},
+           familyi={M\bibinitperiod},
+           given={Kiyoo},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{fullhash}{4e9a5a251a5039e11989759c77688655}
+      \strng{bibnamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authorbibnamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authornamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authorfullhash}{4e9a5a251a5039e11989759c77688655}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-8972}
+      \field{journaltitle}{Bulletin of the Earthquake Research Institute}
+      \field{title}{{Relations between the eruptions of various volcanoes and the deformations of the ground surfaces around them}}
+      \field{volume}{36}
+      \field{year}{1958}
+      \field{pages}{99\bibrangedash 134}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/j.epsl.2004.04.016
+      \endverb
+      \verb{file}
+      \verb :mogi_1958.pdf:PDF
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{5}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Bernard1997}{article}{}
+      \name{author}{24}{}{%
+        {{hash=d893efcbb3a571c92e9ccfe1295657c5}{%
+           family={Bernard},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4e868267e3e036a39a3d82d9d331943a}{%
+           family={Briole},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1bc34a5502440d38ef380dadb76d3a5f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0983714877cadd5c67401c54a3e5a415}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e2a6529c52130e7ba190a905c1aff9e4}{%
+           family={Tiberi},
+           familyi={T\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2cdd7b6edd503d76abb40db1af7627ba}{%
+           family={Berge},
+           familyi={B\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=400020d313e0b9b67c1cec237266f3c9}{%
+           family={Cattin},
+           familyi={C\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=76982a0208eb7b98863e04ce3388368a}{%
+           family={Hatzfeld},
+           familyi={H\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f86187e5d3140483603a33b51f64db18}{%
+           family={Lachet},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=56f9643d42c16526544ab7c11e5edaa2}{%
+           family={Lebrun},
+           familyi={L\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88bd5c9e77228dac450f154e98e771bd}{%
+           family={Deschamps},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d667e845faab98689f528a86ea24d2e}{%
+           family={Courboulex},
+           familyi={C\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5d62c6318d8a9b77436ae80754d6bcd8}{%
+           family={Larroque},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7098582150ec5e21d9b5c59958a58258}{%
+           family={Rigo},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dceaecff1ea2f5b3c7b5b818dbcf1581}{%
+           family={Massonnet},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d2b47948fd8d179281ef1907080a52ee}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cff55003fae0b74d7ca778f11a1800a3}{%
+           family={Kassaras},
+           familyi={K\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=801161658f8990a83621e0ea95eea247}{%
+           family={Diagourtas},
+           familyi={D\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0dc4ad520b6c50b7ced6758568da3a16}{%
+           family={Makropoulos},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4672fc3d428cd17913ac84eee7a00f87}{%
+           family={Veis},
+           familyi={V\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f62f42854677bd6b2c366a6ee7680ef}{%
+           family={Papazisi},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bfb4cbb8eaf826b611522be776e5f709}{%
+           family={Mitsakaki},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0802080dcac20af8244fd1f327bc03d1}{%
+           family={Karakostas},
+           familyi={K\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod}}}%
+        {{hash=7b945402b5c214cd6b71d3ba28f07d36}{%
+           family={Papadimitriou},
+           familyi={P\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{fullhash}{8cfefcff23c806474b094105901edcfb}
+      \strng{bibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authorbibnamehash}{8cfefcff23c806474b094105901edcfb}
+      \strng{authornamehash}{963d41a05a0c62ead03f5baf8448554d}
+      \strng{authorfullhash}{8cfefcff23c806474b094105901edcfb}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Seismology}
+      \field{title}{{TheMs=6.2, June 15, 1995 Aigion earthquake (Greece): evidence for low angle normal faulting in the Corinth rift}}
+      \field{volume}{1}
+      \field{year}{1997}
+      \field{pages}{131\bibrangedash 150}
+      \range{pages}{20}
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/bernard{\_}ea{\_}1997.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.springerlink.com/index/n46q46054lj72vt3.pdf
+      \endverb
+      \keyw{gulf corinth,normal faulting}
+    \endentry
+    \entry{Hyvarinen1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=36ee8c7a6237ee52eabc0039397ca89b}{%
+           family={Hyv{\"{a}}rinen},
+           familyi={H\bibinitperiod},
+           given={Aapo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{fullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{bibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorbibnamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authornamehash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \strng{authorfullhash}{36ee8c7a6237ee52eabc0039397ca89b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{applicability for this approach.}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9788578110796}
+      \field{issn}{1098-6596}
+      \field{journaltitle}{Journal of Chemical Information and Modeling}
+      \field{number}{9}
+      \field{title}{{Independent Component Analysis by Minimization of Mutual Information}}
+      \field{volume}{53}
+      \field{year}{1997}
+      \field{pages}{1689\bibrangedash 1699}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/eemeg/phd/papers/Hyvarinen{\_}1997.pdf:pdf
+      \endverb
+      \keyw{icle}
+    \endentry
+    \entry{Mogi1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e9a5a251a5039e11989759c77688655}{%
+           family={Mogi},
+           familyi={M\bibinitperiod},
+           given={Kiyoo},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{fullhash}{4e9a5a251a5039e11989759c77688655}
+      \strng{bibnamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authorbibnamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authornamehash}{4e9a5a251a5039e11989759c77688655}
+      \strng{authorfullhash}{4e9a5a251a5039e11989759c77688655}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-8972}
+      \field{journaltitle}{Bulletin of the Earthquake Research Institute}
+      \field{title}{{Relations between the eruptions of various volcanoes and the deformations of the ground surfaces around them}}
+      \field{volume}{36}
+      \field{year}{1958}
+      \field{pages}{99\bibrangedash 134}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1016/j.epsl.2004.04.016
+      \endverb
+      \verb{file}
+      \verb :mogi_1958.pdf:PDF
+      \endverb
+    \endentry
+    \entry{redmon2017}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=99bced2e56a5253f3fe98a5f04e6d9b2}{%
+           family={Redmon},
+           familyi={R\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=396c6ddedb6f986906fc3e4994d19974}{%
+           family={Farhadi},
+           familyi={F\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{fullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{bibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorbibnamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authornamehash}{e3b480c56f52be95ad68ce67e9708174}
+      \strng{authorfullhash}{e3b480c56f52be95ad68ce67e9708174}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the IEEE conference on computer vision and pattern recognition}
+      \field{title}{YOLO9000: better, faster, stronger}
+      \field{year}{2017}
+      \field{pages}{7263\bibrangedash 7271}
+      \range{pages}{9}
+      \verb{file}
+      \verb :redmon_farhadi_2016a.pdf:PDF
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
